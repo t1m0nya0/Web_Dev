@@ -1,0 +1,140 @@
+body{
+    background-color: #fafafa;
+}
+section{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inst-img{
+    margin-right: 30px;
+}
+.content-signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 382px;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+}
+.content-signin input{
+    width: 260px;
+    height: 38px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background: #fafafa;
+    padding: 5px;
+}
+.content-signin button{
+    background-color: #0095f6;
+    border: 1px solid #0095f6;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+    text-transform: inherit;
+    width: 272px;
+    height: 38px;
+}
+.content-signin--or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-signin--or hr{
+    width: 104px;
+    margin: 0 5px;
+    border: 0.5px solid #dbdbdb;
+}
+.content-signin--or span{
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.content-signin--facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 272px;
+}
+.content-signin--facebook img{
+    margin-right: 10px;
+}
+.content-signin--facebook a{
+    color: #385185;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.content-signin>a{
+    color: #00376b;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.content-reg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 63px;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    margin-top: 10px;
+}
+.content-reg span, .content-reg a {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px ;
+    margin-right: 5px;
+}
+.content-reg a{
+    color: #0095f6;
+    font-weight: 700;
+}
+.content p{
+    margin:20px 10px;
+    text-align: center;
+}
+.store-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.store-img img{
+    margin-right: 10px;
+}
+.fooster{
+    width: 930px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footers a{
+    color:#848484;
+    display: inline-block;
+    margin: 6px 6px 0px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.footers a:hover{
+    text-decoration: underline;
+}
+.footers p{                    /*Русский © 2022 Instagram from Meta*/
+    line-height: 2;
+    text-align: center;
+    color: #8a8d91;
+}

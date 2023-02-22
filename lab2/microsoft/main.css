@@ -1,0 +1,105 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-main{
+    height: 22px;
+    width: 110px;
+    margin-left: 60px;
+}
+.main{
+    display: flex;
+    margin: 15px 0px 10px 0px;
+}
+
+.menu-main{
+    margin: 5px 10px;
+    padding: 0px 10px;
+    list-style-type: none; /*убирает с листов *  */
+    display: flex;
+}
+.menu :hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.menu{
+    font-size: 14px;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+.search {
+    width: 18px;
+    height: 18px;
+}
+.login{
+    width: 32px;
+    height: 32px;
+}
+.microsoft{
+    margin-left: 70px;
+    width: 1300px;
+    height: 530px;
+    margin-bottom: 50px;
+}
+.info-microsoft{
+    position: absolute;
+    left:150px;
+    top: 25%;
+    color: white;
+}
+.text-microsoft{
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.links-micro{
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    width: 230px;
+    height: 30px;
+    background-color: blue;
+}
+.column {
+    float: left;
+    width: 14%;
+    margin: 0px 65px 0px 65px;
+}
+
+.row{
+    margin-bottom: 500px;
+}
+.photo{
+    width: 280px;
+    height: 180px;
+    margin: 20px 0px;
+}
+.column a{
+    color: #0067b8;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.column a:hover{
+    text-decoration: underline;
+}
+
+
+.column h3{
+    margin-top: 0px;
+    width: 305px;
+}
+.column p{
+    margin-top: 0px;
+    width: 305px;
+    font-weight: 15px;
+}
